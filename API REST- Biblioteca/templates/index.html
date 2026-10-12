@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>♡ Librería ♡</title>
+    <link rel="icon" type="image/x-icon" href="../pics/chk.jpg">
+</head>
+<body>
+  <h1 style="color:#F83B72;">⋆˚꩜｡ Librería ｡꩜˚⋆</h1>
+  <h3 style="color:#FFA2B9;">⋆ López González -- Félix Espejo ⋆</h3>
+
+  <h2 style="color:Tan">Consultar Libros</h2>
+  <button onclick="getLibros()" style="background-color:#FFE3E9; border:2px solid #FFD1DC; color:#FE6E94;">Ver todos</button>
+  <ul id="librosLista"></ul>
+
+  <h2 style="color:Tan">Agregar Libros</h2>
+  <form onsubmit="event.preventDefault(); agregarLibros();">
+    ISBN: <input type="text" id="isbn" placeholder="ISBN"><br>
+    Título: <input type="text" id="titulo" placeholder="Título"><br>
+    Editor ID: <input type="number" id="editor_id" placeholder="Editor ID"><br>
+    Formato: <input type="text" id="formato" placeholder="Formato"><br>
+    Páginas: <input type="number" id="paginas" placeholder="No. de páginas"><br>
+    Año: <input type="number" id="año" placeholder="Año"><br>
+    <button style="background-color:#FFE3E9; border:2px solid #FFD1DC; color:#FE6E94;">Agregar</button>
+  </form>
+
+  <h2 style="color:Tan">Actualizar Libros</h2>
+  <form onsubmit="event.preventDefault(); updateLibro(document.getElementById('updateId').value, {
+      isbn: document.getElementById('updateIsbn').value,
+      titulo: document.getElementById('updateTitulo').value,
+      editor_id: parseInt(document.getElementById('updateEditor').value),
+      formato: document.getElementById('updateFormato').value,
+      paginas: parseInt(document.getElementById('updatePaginas').value),
+      año: parseInt(document.getElementById('updateAño').value)
+  });">
+    ID: <input type="number" id="updateId"><br>
+    ISBN: <input type="text" id="updateIsbn"><br>
+    Título: <input type="text" id="updateTitulo"><br>
+    Editor ID: <input type="number" id="updateEditor"><br>
+    Formato: <input type="text" id="updateFormato"><br>
+    Páginas: <input type="number" id="updatePaginas"><br>
+    Año: <input type="number" id="updateAño"><br>
+    <button style="background-color:#FFE3E9; border:2px solid #FFD1DC; color:#FE6E94;">Actualizar</button>
+  </form>
+
+  <h2 style="color:Tan">Eliminar Libros</h2>
+  <form onsubmit="event.preventDefault(); deleteLibro(document.getElementById('deleteId').value);">
+    ID: <input type="number" id="deleteId">
+    <button style="background-color:#FFE3E9; border:2px solid #FFD1DC; color:#FE6E94;">Eliminar</button>
+  </form>
+
+  <h2 style="color:Tan">Consultar Autores</h2>
+  <button onclick="getAutores()" style="background-color:#FFE3E9; border:2px solid #FFD1DC; color:#FE6E94;">Ver todos</button>
+  <ul id="autoresLista"></ul>
+  <form onsubmit="event.preventDefault(); addAutor({
+      nombre: document.getElementById('autorNombre').value,
+      pais: document.getElementById('autorPais').value,
+      año: parseInt(document.getElementById('autorAño').value)
+  });">
+    <h2 style="color:Tan">Agregar Autores</h2>
+    Nombre: <input type="text" id="autorNombre"><br>
+    País: <input type="text" id="autorPais"><br>
+    Año: <input type="number" id="autorAño"><br>
+    <button style="background-color:#FFE3E9; border:2px solid #FFD1DC; color:#FE6E94;">Agregar</button>
+  </form>
+
+  <h2 style="color:Tan">Consultar Editores</h2>
+  <button onclick="getEditores()" style="background-color:#FFE3E9; border:2px solid #FFD1DC; color:#FE6E94;">Ver todos</button>
+  <ul id="editoresLista"></ul>
+  <form onsubmit="event.preventDefault(); addEditor({
+      nombre: document.getElementById('editorNombre').value
+  });">
+    <h2 style="color:Tan">Agregar Editores</h2>
+    Nombre: <input type="text" id="editorNombre"><br>
+    <button style="background-color:#FFE3E9; border:2px solid #FFD1DC; color:#FE6E94;">Agregar</button>
+  </form>
+
+  <br><br>
+
+  <script src="static/script.js"></script>
+
+</body>
+</html>
