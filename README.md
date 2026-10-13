@@ -26,13 +26,18 @@
 ## Capturas de pantalla
 <div align="center">
 <h2>Agregar Libros</h2>
+<img width="1323" height="821" alt="Screenshot (1601)" src="https://github.com/user-attachments/assets/e56eef35-b47a-4157-8326-8e8d2ba47002" />
 <h2>Agregar Autores</h2>
+
 <h2>Actualizar Libros</h2>
+<img width="1324" height="824" alt="Screenshot (1602)" src="https://github.com/user-attachments/assets/59ab51d3-85ee-4b49-a65b-b84c1f9b6e99" />
+
 <h2>Consultas</h2>
+<img width="1321" height="821" alt="Screenshot (1604)" src="https://github.com/user-attachments/assets/58f66b50-44e8-439f-ab0a-c716173da278" />
+
 <h2>Eliminar Libros</h2>
+<img width="1322" height="822" alt="Screenshot (1603)" src="https://github.com/user-attachments/assets/c48dedfc-7232-40c8-858e-552200c3b437" />
 <img width="1321" height="818" alt="proj_3" src="https://github.com/user-attachments/assets/0a52505e-cf8f-4cdb-acb7-50c041ce894c" />
-
-
 
 <img width="6671" height="727" alt="ezgif-15c6ae26f5bcf8" src="https://github.com/user-attachments/assets/989d1b3f-1ef0-4845-ad56-6e32ec358429" />
 </div>
