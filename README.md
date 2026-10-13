@@ -4,13 +4,19 @@
 </div>
 
 ## Acerca de
-* El proyecto _Bilbioteca API REST_ es un proyecto CRUD que utiliza una base de datos en SQLite, JavaScript, código Java y  tiene una interfaz en HTML (con diseño en CSS).
-<img width="1321" height="818" alt="proj_3" src="https://github.com/user-attachments/assets/3e8b4e14-eb84-450a-aa3b-dbb642186646" />
-
-* Desarrollado como proyecto final en la clase _Desarrollo de Sistemas IV_, nos permitió aprender a crear un entorno donde el código y las bases de datos convergen para crear una aplicación funcional.
-* Creado bajo la tutoría del profesor Ivan Dostoyewski Meza Ibarra
+* El proyecto _Bilbioteca API REST_ es un proyecto CRUD que utiliza una base de datos en SQLite, JavaScript, código Java y  tiene una interfaz en HTML (con diseño en CSS)
+* Desarrollado como proyecto final en la clase _Desarrollo de Sistemas IV_, el cuál nos enseño a crear una API RESTful conectada a una base de datos completamente funcional a través de un HTML.
+* Creado bajo la tutoría del profesor Ivan Dostoyewski Meza Ibarra por los integrantes:
+* Alehtse María Félix Espejo
+* Andrea Guadalupe López González
 
 ## Funcionalidades
+* Insertar libros
+* Insertar autores
+* Actualizar la información de los libros que existen en la base de datos
+* Consultar libros registrados
+* Consultar autores registrados
+* Eliminar libros de la base de datos
 
 
 ## Dependencias
