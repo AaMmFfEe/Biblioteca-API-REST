@@ -1,2 +1,22 @@
-# Biblioteca-API-REST
-⸜(｡˃ ᵕ ˂ )⸝♡ CRUD de Biblioteca utilizando API REST y SQLite ♡⸜(｡˃ ᵕ ˂ )⸝
+<div align="center">
+<img width="6671" height="746" alt="ezgif-1e995cabfa8fdf" src="https://github.com/user-attachments/assets/a06b19f7-fa66-49b7-a806-287dec324f99" />
+<h1 align="center">Biblioteca API REST</h1>
+
+## Acerca de
+* El proyecto _Bilbioteca API REST_ es un proyecto CRUD que utiliza una base de datos en SQLite, JavaScript, código Java y  tiene una interfaz en HTML (con diseño en CSS).
+<img width="1321" height="818" alt="proj_3" src="https://github.com/user-attachments/assets/3e8b4e14-eb84-450a-aa3b-dbb642186646" />
+
+* Desarrollado como proyecto final en la clase _Desarrollo de Sistemas IV_, nos permitió aprender a crear un entorno donde el código y las bases de datos convergen para crear una aplicación funcional.
+* Creado bajo la tutoría del profesor Ivan Dostoyewski Meza Ibarra
+
+## Funcionalidades
+
+
+## Dependencias
+* Java 8
+* SQLite
+
+## Capturas de pantalla
+<img width="1321" height="818" alt="proj_3" src="https://github.com/user-attachments/assets/0a52505e-cf8f-4cdb-acb7-50c041ce894c" />
+<img width="6671" height="727" alt="ezgif-15c6ae26f5bcf8" src="https://github.com/user-attachments/assets/989d1b3f-1ef0-4845-ad56-6e32ec358429" />
+</div>
