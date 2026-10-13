@@ -25,6 +25,10 @@
 
 ## Capturas de pantalla
 <div align="center">
+<h2>Agregar Libros</h2>
+<h2>Agregar Autores</h2>
+<h2>Actualizar Libros</h2>
+<h2>Consultas</h2>
 <h2>Eliminar Libros</h2>
 <img width="1321" height="818" alt="proj_3" src="https://github.com/user-attachments/assets/0a52505e-cf8f-4cdb-acb7-50c041ce894c" />
 
