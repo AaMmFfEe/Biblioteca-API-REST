@@ -4,7 +4,7 @@
 </div>
 
 ## Acerca de
-* El proyecto _Bilbioteca API REST_ es un proyecto CRUD que utiliza una base de datos en SQLite, JavaScript, código Java y  tiene una interfaz en HTML (con diseño en CSS)
+* El proyecto _Bilbioteca API REST_ es un proyecto CRUD que utiliza una base de datos en SQLite, JavaScript, código Python y tiene una interfaz en HTML (con diseño en CSS)
 * Desarrollado como proyecto final en la clase _Desarrollo de Sistemas IV_, el cuál nos enseño a crear una API RESTful conectada a una base de datos completamente funcional a través de un HTML.
 * Creado bajo la tutoría del profesor Ivan Dostoyewski Meza Ibarra por los integrantes:
 * Alehtse María Félix Espejo
