@@ -25,8 +25,10 @@
 
 ## Capturas de pantalla
 <div align="center">
-Eliminar Libros
+<h2>Eliminar Libros</h2>
 <img width="1321" height="818" alt="proj_3" src="https://github.com/user-attachments/assets/0a52505e-cf8f-4cdb-acb7-50c041ce894c" />
+
+
 
 <img width="6671" height="727" alt="ezgif-15c6ae26f5bcf8" src="https://github.com/user-attachments/assets/989d1b3f-1ef0-4845-ad56-6e32ec358429" />
 </div>
